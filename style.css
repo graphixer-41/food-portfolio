@@ -1,28 +1,102 @@
 body{
+    margin: 0%;
+    padding: 0%;
     font-family: 'Montserrat', sans-serif;
 }
 h1{
     color: rgb(71, 70, 70);
-    font-size: 50px;
+    font-size: 60px;
+    line-height: 50px;
 }
-section{
+.orange-color{
+    color: orange;
+}
+.section-1{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width-1{
     width: 50%;
     padding-left: 5%;
+    margin-top: 200px;
 }
 .half-width{
-    width: 50%;
+    width: 70%;
 }
 .half-width img{
-    width: 100%;
+    width: 90%;
 }
 .order-food{
     text-decoration: none;
     background-color: rgb(255, 153, 0);
     color: aliceblue;
     border-radius: 30px;
+    padding: 20px 40px;  
+}
+.section-2{
+    display: flex;
+    background: url(images/shapes/Frame\ 59.jpg);
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-2-div-1{
+    width: 50%;
+    
+}
+.sec-2-div-1 img{
+    width: 70%;
+    padding-left: 20%;
+}
+.div-2{
+    margin-top: 150px;
+    margin-right: 100px;
+}
+.connect{
+    text-decoration: none;
+    background-color: orange;
+    font-weight: 400px;
+    color: aliceblue;
+    border-radius: 30px;
     padding: 20px 40px;
-    font-weight: 700px;
+}
+.section-3{
+    display: flex;
+    margin-bottom: 200px;
+}
+.section-4{
+    display: flex;
+}
+.d-1{
+    margin-left: 20%;
+}
+.d-2{
+    margin-left: 20%;
+}
+.d-3{
+    margin-left: 20%;
+}
+.section-5{
+    margin-top: 100px;
+    
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-size: cover;
+}
+.section-5 h2{
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.section-5 p{
+    color: white;
+    text-align: center;
+    
+}
+.sp{
+    color: orange;
 }
